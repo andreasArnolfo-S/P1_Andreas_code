@@ -4,7 +4,7 @@ html {
 
 body {
 	font-family: 'Raleway', sans-serif;
-	font-size: 16px;
+	
 }
 
 a {
@@ -33,9 +33,6 @@ a {
 	margin-right: 2%;
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
-	color: black;
-	transition-duration: 0.1s;
 }
 
 .nav-links a {
@@ -55,16 +52,9 @@ a {
 /*search*/
 
 .search {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
 	padding: 35px 35px 0px 35px; 
 }
 
-.search-subtitle {
-	color: black;
-	font-size: 14px;
-}
 
 .search .search-form input[type=text] {
 	border-right: none;
@@ -147,7 +137,6 @@ input:focus {
 }
 
 .filter-title {
-	text-align: center;
 	padding: 0px 10px 0px 10px;
 }
 
@@ -205,38 +194,33 @@ input:focus {
 	box-shadow: 1px 2px 4px gray;
 }
 
-.search-infos {
-	padding: 10px 5px 10px 10px;
-}
+
 
 .search .search-form .btn-phone {
 	visibility: hidden;
 }
 
 
-/*Card section*/
+/*Card section - Englobe la section hébergement et la section populaire*/
 
 .card-section {
 	display: flex;
-	justify-content: center;
+	justify-content: center; 
 }
 
-
-/*Hebergement*/
-
-.flex-card {
-	display: flex;
-	flex-wrap: wrap;
-	flex-basis: auto;
-	justify-content: center;
-}
+/*Section hébergement*/
 
 .card-section-bg {
-	background-color: #F2F2F2;
+	background-color: #F2F2F2;  /*light-gray*/
 	border-radius: 18px;
 	width: 65%;
 }
-
+.flex-card {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	
+}
 .card-section-link {
 	display: flex;
 	margin-left: 60px;
@@ -246,7 +230,9 @@ input:focus {
 }
 
 .card {
-	width: 25%;
+	flex-basis: 21.6%;
+	min-width: 260px;
+	flex-grow: 1;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	transition: 0.3s;
 	margin: 20px;
@@ -254,16 +240,21 @@ input:focus {
 	background-color: white;
 	overflow: hidden;
 	padding: 7px 7px;
-	height: 285px;
-	max-height: 285px;
+	height: auto;
+	max-height: 280px; 
 }
 
 .card img {
 	width: 100%;
-	height: 150px;
+	height:60%;
 	border-radius: 20px 20px 0px 0px;
 	object-fit: cover;
 	transition: 0.4s;
+}
+
+.card h3{
+	margin: 0;
+	line-height: 1.4;
 }
 
 .card:hover {
@@ -284,13 +275,10 @@ input:focus {
 
 .card-container {
 	padding: 0px 25px;
-	margin-bottom: 10px;
 	line-height: 0.8;
 }
 
 .card:hover .card-container {
-	display: flex;
-	flex-direction: column;
 	line-height: 0.8;
 	text-align: center;
 	align-items: center;
@@ -339,25 +327,17 @@ input:focus {
 }
 
 
-/*Populaire*/
+/*Section populaire*/
 
-.flex-card-pop {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	align-content: center;
-}
-
-.card-section-pop {
+.card-section-pop {  
 	background-color: #F2F2F2;
 	border-radius: 18px;
 	width: 30%;
-	margin-left: 2%;
+	margin-left: 2%;  /*Séparation entre la section hébergement et populaire*/
 }
-
 .card-section-pop-title {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-between; 
 	padding: 20px;
 }
 
@@ -368,16 +348,17 @@ input:focus {
 	border-radius: 25px;
 	background-color: white;
 	flex-grow: 1;
+	margin: auto;
 	margin-top: 30px;
 	width: 80%;
-	height: 170px;
+	height: 190px;
 	max-width: 85%;
 	overflow: hidden;
 	padding: 7px 7px;
 }
 
 .card-pop img {
-	height: 170px;
+	height: 190px;
 	width: 40%;
 	border-radius: 20px 0px 0px 20px;
 	object-fit: cover;
@@ -400,8 +381,6 @@ input:focus {
 }
 
 .card-container-pop {
-	flex-direction: column;
-	justify-content: space-around;
 	line-height: 1.4;
 	margin-left: 15px;
 }
@@ -413,7 +392,6 @@ input:focus {
 .checked {
 	color: #0065FC;
 }
-
 
 /*Activiter*/
 
