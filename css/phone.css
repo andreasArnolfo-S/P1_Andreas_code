@@ -91,7 +91,7 @@
 		display: flex;
 		flex-wrap: nowrap;
 		flex-direction: column;
-		height: auto;
+		height: 1200px;
 		max-height: 1200px;
 	}
 	.activ-card {

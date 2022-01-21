@@ -39,18 +39,30 @@
 	.flex-card-pop {
 		align-items: center;
 	}
-
+	.card-section-link{
+		justify-content: center;
+		margin: 0;
+		margin-top: 10px;
+	}
+.activ-section {
+	padding-top: 10px;
+	max-height: 1000px;
+	height: 1000px;
+}
 	.flex-card-activ {
 		flex-wrap: wrap;
-		flex-direction: column;
+		flex-direction: row;
+		justify-content: center;
 		height: 900px;
 		max-height: 900px;
 	}
 	.activ-card {
 		width: 100%;
 		margin-bottom: 30px;
-		height: 20%;
-		max-width: 40%;
+		flex-grow: 1;
+		height: 30%;
+		flex-basis: 40%;
+		max-width: 45%;
 	}
 	.activ-card img {
 		height: 70%;

@@ -221,8 +221,10 @@ input:focus {
 }
 .card-section-link {
 	display: flex;
-	margin-left: 60px;
-	padding: 40px;
+	justify-content: flex-start;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 30px;
 	font-weight: 900;
 	font-size: 18px;
 }
@@ -396,7 +398,7 @@ input:focus {
 .activ-section {
 	padding-top: 10px;
 	max-height: 800px;
-	height: 900px;
+	height: 800px;
 }
 
 .flex-card-activ {
