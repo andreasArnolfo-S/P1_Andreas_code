@@ -218,8 +218,6 @@ input:focus {
 .flex-card {
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%;
-	
 }
 .card-section-link {
 	display: flex;
