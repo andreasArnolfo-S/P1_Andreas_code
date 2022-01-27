@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
    <title>Bookie</title>
@@ -100,7 +100,7 @@
       <!-- Section qui contient la section hebergement et populaire-->
       <section class="card-section" id="hebergement-card">
          <!--Contient la section hebergement-->
-         <section class="card-section-bg">  
+         <section class="card-section-hebergement">  
             <h2 class="card-section-title">Hébergements à Marseille</h2> 
             <!--Contient les cards de la section herbergement-->
             <div class="flex-card">
@@ -226,7 +226,8 @@
             </div>
          </section>
          <!-- Section Card populaire -->
-         <section class="card-section-pop">
+
+         <aside class="card-section-pop">
             <h2 class="card-section-pop-title">Les plus populaires <span class="fa fa-line-chart"></span></h2>
         
                <!--Card-->
@@ -235,8 +236,10 @@
                      alt="Hotel le soleil du matin">
                      <!--Container text de la card-->
                   <div class="card-container-pop">
-                     <h3><b>Hotel le soleil du matin</b></h3>
-                     <p class="card-container-pop-price">Nuit à partir de <b>128€</b></p>
+                     <div>
+                           <h3><b>Hotel le soleil du matin</b></h3>
+                           <p class="card-container-pop-price">Nuit à partir de <b>128€</b></p>
+                     </div>
                      <!--Grade étoiles-->
                      <div class="pop-grade">
                         <span class="fa fa-star checked"></span>
@@ -253,8 +256,11 @@
                      alt="Au coeur de l'eau chambres d'hôtes">
                      <!--Container text de la card-->
                   <div class="card-container-pop">
-                     <h3><b>Au coeur de l'eau chambres d'hôtes</b></h3>
-                     <p class="card-container-pop-price">Nuit à partir de <b>71€</b></p>
+                     <div>
+                        <h3><b>Au coeur de l'eau chambres d'hôtes</b></h3>
+                        <p class="card-container-pop-price">Nuit à partir de <b>71€</b></p>
+                     </div>
+                    
                      <!--Grade étoiles-->
                      <div class="pop-grade">
                         <span class="fa fa-star checked"></span>
@@ -271,8 +277,11 @@
                      alt="Hotel tout bleu et blanc">
                      <!--Container text de la card-->
                   <div class="card-container-pop">
-                     <h3><b>Hotel tout bleu et blanc</b></h3>
-                     <p class="card-container-pop-price">Nuit à partir de <b>68€</b></p>
+                     <div>
+                        <h3><b>Hotel tout bleu et blanc</b></h3>
+                        <p class="card-container-pop-price">Nuit à partir de <b>68€</b></p>
+                     </div>
+                     
                      <!--Grade étoiles-->
                      <div class="pop-grade">
                         <span class="fa fa-star checked"></span>
@@ -283,8 +292,8 @@
                      </div>
                   </div>
                </a>
-            
-         </section>
+
+            </aside>
       </section>
    
 
@@ -357,7 +366,7 @@
          <!--Contient les trois sections du footer-->
          <div class="footer-flex">
             <section>
-               <h1 class="About">A propos</h1>
+               <h3 class="About">A propos</h3>
                <ul class="footer-list">
                   <li> <a href="#" target="_blank">Fonctionnement du site</a> </li>
                   <li> <a href="#" target="_blank">Condition générales de ventes</a> </li>
@@ -365,7 +374,7 @@
                </ul>
             </section>
             <section>
-               <h1>Nos hébergement</h1>
+               <h3>Nos hébergement</h3>
                <ul class="footer-list">
                   <li><a href="#" target="_blank">Charte qualité</a></li>
                   <li><a href="#" target="_blank">Soumettre votre hôtel</a></li>
@@ -373,7 +382,7 @@
                </ul>
             </section>
             <section>
-               <h1>Assistance</h1>
+               <h3>Assistance</h3>
                <ul class="footer-list">
                   <li><a href="#" target="_blank">Centre d'aide</a></li>
                   <li><a href="#" target="_blank">Nous contacter</a></li>

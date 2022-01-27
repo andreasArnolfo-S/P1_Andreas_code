@@ -11,6 +11,9 @@ a {
 	text-decoration: none;
 	color: black;
 }
+p{
+	font-weight: 550;
+}
 
 
 /*Nav Bar*/
@@ -209,7 +212,7 @@ input:focus {
 
 /*Section hébergement*/
 
-.card-section-bg {
+.card-section-hebergement {
 	background-color: #F2F2F2;  /*light-gray*/
 	border-radius: 18px;
 	flex-basis: 65%;
@@ -220,7 +223,6 @@ input:focus {
 }
 .card-section-link {
 	display: flex;
-	justify-content: flex-start;
 	margin-top: 10px;
 	margin-bottom: 20px;
 	margin-left: 30px;
@@ -275,6 +277,7 @@ input:focus {
 .card-container {
 	padding: 0px 25px;
 	line-height: 0.8;
+
 }
 
 .card:hover .card-container {
@@ -381,6 +384,9 @@ input:focus {
 .card-container-pop {
 	line-height: 1.4;
 	margin-left: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .fa-star {
