@@ -1,12 +1,9 @@
 html {
-	scroll-behavior: smooth; /*Scroll vers la section demander*/
+	scroll-behavior: smooth; /*Scroll doucement vers la section demander*/
 }
-
 body {
 	font-family: 'Raleway', sans-serif;
-	
 }
-
 a {
 	text-decoration: none;
 	color: black;
