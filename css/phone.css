@@ -14,10 +14,14 @@
 	.nav-links a:hover {
 		color: #0065FC;
 		border-top: none;
+		border-bottom: 2px solid #0065FC;
 	}
 	.nav-links .active {
 		border-top: none;
 		border-bottom: 2px solid #0065FC;
+	}
+	.nav-links .disable:hover, .active:hover{
+		animation: none;
 	}
 	.search-form {
 		display: flex;
@@ -55,8 +59,12 @@
 	}
 	.card {
 		width: 80%;
-		max-height: none;
+		max-height: 280px;
 		font-size: 16px;
+		height: 450px;
+	}
+	.card-container{
+		height: 70px;
 	}
 	.card img{
 		height: 120px;
