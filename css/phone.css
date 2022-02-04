@@ -11,6 +11,9 @@
 	.nav-links {
 		font-size: 20px;
 	}
+	.nav-links hr{
+		display: none;
+	}
 	.nav-links a:hover {
 		color: #0065FC;
 		border-top: none;
@@ -20,9 +23,7 @@
 		border-top: none;
 		border-bottom: 2px solid #0065FC;
 	}
-	.nav-links .disable:hover, .active:hover{
-		animation: none;
-	}
+
 	.search-form {
 		display: flex;
 		border: 2px solid #e7e7e7;
