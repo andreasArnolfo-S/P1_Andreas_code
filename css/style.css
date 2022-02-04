@@ -44,6 +44,7 @@ p{
   top: 2px;
   right: 105px;
   transition: 0.6s;
+  
 }
 .nav-links .disable:hover ~ hr{
   right: 0px;
@@ -197,8 +198,9 @@ input:focus {
 	box-shadow: 1px 2px 4px gray;
 }
 
-.search .search-form .btn-phone {
+.search .search-form .icon-phone {
 	visibility: hidden;
+	width: 0%;
 }
 
 

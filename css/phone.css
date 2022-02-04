@@ -36,16 +36,29 @@
 		width: 100%;
 		border: none;
 	}
-	.search .search-form .btn-phone {
-		display: flex;
-		align-items: center;
-		justify-content: center;
+	.btn-txt{
+		display: none;
+	}
+	.search .search-form .btn-submit{
+		width: 25%;
+		height: 60px ;
 		position: relative;
 		margin-right: -3px;
 		margin-top: -3px;
 		margin-bottom: -3px;
-		width: 30%;
+		border-radius: 15px;
 	}
+	.search .search-form .icon-phone {
+		background-color: #0065FC;
+		color: white;
+		border: none;
+		border-radius: 15px;
+		visibility: visible ;
+		width: 100%;
+		
+	}
+
+
 	.btn-location {
 		position: relative;
 		height: 58px;
@@ -141,16 +154,7 @@
 	.search-filter-items {
 		width: 100%;
 	}
-	.btn-submit {
-		display: none;
-	}
-	.search .search-form .btn-phone {
-		background-color: #0065FC;
-		color: white;
-		border: none;
-		border-radius: 15px;
-		visibility: visible;
-	}
+
 	.footer-flex {
 		flex-direction: column;
 	}
